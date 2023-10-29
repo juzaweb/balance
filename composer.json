@@ -1,5 +1,8 @@
 {
     "name": "juzaweb/balance",
+    "homepage": "https://juzaweb.com",
+    "type": "juzaweb-plugin",
+    "license": "MIT",
     "description": "Add balance for user Juzaweb CMS",
     "extra": {
         "juzaweb": {
@@ -16,5 +19,9 @@
         "psr-4": {
             "Juzaweb\\Balance\\": "src/"
         }
+    },
+    "require-dev": {
+        "juzaweb/modules": "^1.0",
+        "juzaweb/dev-tool": "^1.0"
     }
 }
