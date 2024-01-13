@@ -53,9 +53,9 @@ class WithdrawRequest extends Model
     protected $casts = ['amount' => 'float'];
     protected $appends = ['status_label'];
 
-    const STATUS_PENDING = 'pending';
-    const STATUS_PAID = 'paid';
-    const STATUS_DENY = 'deny';
+    public const STATUS_PENDING = 'pending';
+    public const STATUS_PAID = 'paid';
+    public const STATUS_DENY = 'deny';
 
     public function getAmount(): string
     {
